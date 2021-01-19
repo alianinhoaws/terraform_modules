@@ -17,3 +17,7 @@ variable "cidr_block_egress" {
 variable "region" {
   default = ""
 }
+
+variable "env" {
+  default = ""
+}

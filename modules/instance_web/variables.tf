@@ -30,3 +30,22 @@ variable "instance_count" {
   default = ""
 }
 
+variable "ami" {
+  default = ""
+}
+
+variable "env" {
+  default = ""
+}
+
+variable "file" {
+  default = ""
+}
+
+variable "variables" {
+  default = ""
+}
+
+variable "filetype" {
+  default = ""
+}

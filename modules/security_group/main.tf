@@ -20,6 +20,6 @@ resource "aws_security_group" "web" {
     cidr_blocks = var.cidr_block_egress
   }
   tags = {
-    Name = "Web"
+    Name = "${var.env}-web-sg-ports-${join("-", var.ingress_ports)}"
   }
 }
