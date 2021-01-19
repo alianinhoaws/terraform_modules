@@ -5,7 +5,7 @@ provider "aws" {
 locals {
   variables = {
     l_name = var.last_name
-    f_mame = var.first_name
+    f_name = var.first_name
     names = var.names
   }
 }
