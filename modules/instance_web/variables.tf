@@ -42,10 +42,6 @@ variable "file" {
   default = ""
 }
 
-variable "variables" {
-  default = ""
-}
-
 variable "filetype" {
   default = ""
 }
